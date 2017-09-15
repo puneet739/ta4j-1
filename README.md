@@ -6,6 +6,17 @@
 
 Ta4j is an open source Java library for [technical analysis](http://en.wikipedia.org/wiki/Technical_analysis). It provides the basic components for creation, evaluation and execution of trading strategies.
 
+---
+
+**Important note:** _Ta4j was initially developed by Marc de Verdelhan [mdeverdelhan](https://github.com/mdeverdelhan). He decided to give up the project, since lack of time. See [#192](https://github.com/mdeverdelhan/ta4j/issues/192). Many, many thanks for this great work and he made it possible with his work and his time to provide us such a great solution ta4j.
+So there was a decision to fork the project and to pull it below the top level organisation ta4j. Also the corresponding domain was registered and will be contributed to the ta4j organisation, which hopefully will evolve from the contributors._
+
+* The new corresponding webpage http://ta4j.org will also be initialized in the near future.<br>
+
+* **The maintenance of ta4j will be continued in this repository**
+
+---
+
 ### Features
 
  * [x] 100% Pure Java - works on any Java Platform version 8 or later
@@ -24,7 +35,7 @@ Ta4j is available on [Maven Central](http://search.maven.org/#search|ga|1|a%3A%2
 <dependency>
     <groupId>eu.verdelhan</groupId>
     <artifactId>ta4j</artifactId>
-    <version>0.8</version>
+    <version>0.9</version>
 </dependency>
 ```
 
@@ -35,7 +46,7 @@ For ***snapshots***, add the following repository to your `pom.xml` file.
     <url>https://oss.sonatype.org/content/repositories/snapshots</url>
 </repository>
 ```
-The current snapshot version is `0.9-SNAPSHOT`.
+The current snapshot version is `0.10-SNAPSHOT`.
 
 
 ### Getting Help
